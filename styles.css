@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: rgba(133, 133, 218, 0.833);
+    background-color: rgba(3, 3, 34, 0.833);
 }
 
 .container {
@@ -44,23 +44,43 @@ h1 {
     transition: all 0.2s ease-in-out;
 }
 
+.mama-item2:hover {
+    background-color: blueviolet;
+    border-radius: 0.5em;
+    outline: 0px solid transparent;
+    padding: 15px 15px;
+    border: 1px solid darkblue;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    color: whitesmoke;
+}
+
 input {
     border-radius: 5px;
     font-size: 1em;
     width: 8em;
-    padding: .75em;
+    padding: 0.75em;
     border: none;
     outline: none;
-    background-color: #172b5cdc;
+    background-color: #354a80dc;
     color: whitesmoke;
 }
 
 button {
+    color: darkblue;
+    display: block;
     font-size: 1em;
-    background-color: chartreuse;
+    background-color: whitesmoke;
     padding: .75em;
     margin: 1em auto 2em auto;
     border: none;
-    border-radius: 5px;
+    border-radius: 0.5em;
     cursor: pointer;
+
+}
+
+#result {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0.8emF;
 }
