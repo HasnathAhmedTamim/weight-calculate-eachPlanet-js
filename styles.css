@@ -84,3 +84,18 @@ button {
     grid-template-columns: repeat(4, 1fr);
     gap: 0.8emF;
 }
+
+.planet-box {
+    padding: 1em;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 0.5em;
+}
+
+.planet-box img {
+    width: 90%;
+    height: auto;
+}
