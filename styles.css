@@ -82,7 +82,8 @@ button {
 #result {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 0.8emF;
+    gap: 0.8em;
+    padding: 1em;
 }
 
 .planet-box {
